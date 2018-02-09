@@ -17,6 +17,7 @@ public class BufferedStreamTest {
 		OutputStream os = null;
 		InputStream in = null;
 		try {
+			
 			//写文件
 			os = new BufferedOutputStream(new FileOutputStream("D:\\prosay\\def.txt", true));
 			os.write("HelloWorld".getBytes());
